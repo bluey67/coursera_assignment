@@ -11,7 +11,7 @@ function check_answer {
     fi 
 }
 
-correct_answer=$(ls -l | wc -l | bc)
+correct_answer=$(ls | wc -l | bc)
 success=1
 
 while [[ $success != 0 ]]
